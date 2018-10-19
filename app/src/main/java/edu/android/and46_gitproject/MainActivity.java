@@ -2,6 +2,7 @@ package edu.android.and46_gitproject;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -15,5 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         textView = findViewById(R.id.textView);
         textView.setText("안녕하세요");
+
+        Button btn = findViewById(R.id.button);
     }
 }
